@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="swiper4/swiper-4.3.5.min.css">
+    <script src="js/flexible.js"></script>
+    <script src="js/zepto.js"></script>
+    <script src="swiper4/swiper-4.3.5.min.js"></script>
+</head>
+
+<body>
+    <div class="bigImg swiper-container">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+                <a href="img"><img src="img/1366_768 (5).jpg"></a>
+            </li>
+            <li class="swiper-slide">
+                <a href="img"><img src="img/1366_768 (6).jpg"></a>
+            </li>
+            <li class="swiper-slide">
+                <a href="img"><img src="img/1366_768 (7).jpg"></a>
+            </li>
+            <li class="swiper-slide">
+                <a href="img"><img src="img/1366_768 (8).jpg"></a>
+            </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+    </div>
+    <script>
+        var banner = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+            autoplay: true,
+            loop: true
+        })
+    </script>
+</body>
+
+</html>
