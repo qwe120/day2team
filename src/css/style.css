@@ -195,28 +195,3 @@ body {
     width: 100%;
     height: 5.33333rem;
 }
-
-.img {
-    display: flex;
-    /* NEW, Spec - Opera 12.1, Firefox 20+ */
-    display: -webkit-flex;
-    /* NEW - Chrome */
-    width: 100%;
-    -webkit-flex: 1 1 0%;
-    flex: 1 1 0%;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-.img>dl {
-    height: 5.33333rem;
-    width: 50%;
-}
-
-.img>dl img {
-    height: 4rem;
-}
-
-.img>dl dt {
-    font-size: 0.48rem;
-}

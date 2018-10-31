@@ -4,20 +4,3 @@
     width: 100%;
     height: pxTorem(200px);
 }
-
-.img {
-    @include box_flex;
-    width: 100%;
-    @include flex;
-    @include flexWrap;
-    >dl {
-        height: pxTorem(200px);
-        width: 50%;
-        img {
-            height: pxTorem(150px);
-        }
-        dt {
-            font-size: pxTorem(18px);
-        }
-    }
-}
