@@ -44,7 +44,7 @@ section .nav ul{
         text-align: center;
         line-height: pxTorem(50px);
         font-size: pxTorem(12px);
-        padding: 0 pxTorem(10px);
+        padding: 0 pxTorem(5px);
         @include sizing;
         &:hover {
             border-bottom: 3px solid palevioletred;
