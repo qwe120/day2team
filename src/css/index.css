@@ -242,10 +242,17 @@ section .nav ul li {
   text-align: center;
   line-height: 1.33333rem;
   font-size: 0.32rem;
+  padding: 0 0.13333rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 section .nav ul li:hover {
-  border-bottom: 3px solid #ccc;
+  border-bottom: 3px solid palevioletred;
+  color: palevioletred;
 }
 
 footer {
