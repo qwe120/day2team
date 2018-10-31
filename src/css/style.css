@@ -77,13 +77,13 @@ mark,
 audio,
 video,
 input {
-  margin: 0;
-  padding: 0;
-  border: none;
-  outline: 0;
-  font-family: STHeitiSC-Light;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 0;
+    font-family: STHeitiSC-Light;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 html,
@@ -98,13 +98,13 @@ h3,
 h4,
 h5,
 h6 {
-  -webkit-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 }
 
 html,
 body {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 article,
@@ -118,187 +118,105 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
 
 body {
-  font-family: arial, sans-serif;
+    font-family: arial, sans-serif;
 }
 
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
 
 ins,
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 del {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 img {
-  display: inline-block;
+    display: inline-block;
 }
 
 input,
 textarea {
-  border: none;
-  background: none;
-  outline: none;
-  -webkit-appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+    -webkit-appearance: none;
 }
 
 * {
-  -webkit-tap-highlight-color: transparent;
-  -moz-tap-highlight-color: transparent;
-  -ms-tap-highlight-color: transparent;
-  -o-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
+    -o-tap-highlight-color: transparent;
 }
+
 
 /*html {
     font-size: $browser-default-font-size;
 }*/
+
 html {
-  font-size: 37.5px;
+    font-size: 37.5px;
 }
 
 html,
 body {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
-.box {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  /* NEW, Spec - Opera 12.1, Firefox 20+ */
-  display: -webkit-flex;
-  /* NEW - Chrome */
-  -webkit-flex-direction: column;
-  flex-direction: column;
+.bigImg {
+    width: 100%;
+    height: 5.33333rem;
 }
 
-.nav {
-  height: 1.17333rem;
-  width: 100%;
-  width: 100%;
-  background: #f0f0f0;
+.img {
+    display: flex;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    display: -webkit-flex;
+    /* NEW - Chrome */
+    width: 100%;
+    -webkit-flex: 1 1 0%;
+    flex: 1 1 0%;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
-.nav > ul {
-  width: 14.4rem;
-  display: flex;
-  /* NEW, Spec - Opera 12.1, Firefox 20+ */
-  display: -webkit-flex;
-  /* NEW - Chrome */
-  height: 1.17333rem;
-  line-height: 1.17333rem;
-  -webkit-justify-content: space-around;
-  justify-content: space-around;
+.img>dl {
+    height: 5.33333rem;
+    width: 50%;
 }
 
-.nav > li {
-  display: flex;
-  /* NEW, Spec - Opera 12.1, Firefox 20+ */
-  display: -webkit-flex;
-  /* NEW - Chrome */
-  height: 1.17333rem;
-  line-height: 1.17333rem;
-  width: 5.33333rem;
+.img>dl img {
+    height: 4rem;
 }
 
-.body {
-  display: flex;
-  /* NEW, Spec - Opera 12.1, Firefox 20+ */
-  display: -webkit-flex;
-  /* NEW - Chrome */
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  width: 100%;
-  -webkit-flex: 1 1 0%;
-  flex: 1 1 0%;
-}
-
-.body .bigImg {
-  width: 100%;
-  height: 5.33333rem;
-}
-
-.body .img {
-  display: flex;
-  /* NEW, Spec - Opera 12.1, Firefox 20+ */
-  display: -webkit-flex;
-  /* NEW - Chrome */
-  width: 100%;
-  -webkit-flex: 1 1 0%;
-  flex: 1 1 0%;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-.body .img > dl {
-  height: 5.33333rem;
-  width: 50%;
-}
-
-.body .img > dl img {
-  height: 4rem;
-}
-
-.body .img > dl dt {
-  font-size: 0.48rem;
-}
-
-.foot {
-  display: flex;
-  /* NEW, Spec - Opera 12.1, Firefox 20+ */
-  display: -webkit-flex;
-  /* NEW - Chrome */
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  align-items: center;
-  width: 100%;
-  height: 1.33333rem;
-  background: pink;
-}
-
-.foot dl {
-  display: flex;
-  /* NEW, Spec - Opera 12.1, Firefox 20+ */
-  display: -webkit-flex;
-  /* NEW - Chrome */
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  align-items: center;
-  flex: 1;
-}
-
-.foot dl dd {
-  font-size: 0.53333rem;
+.img>dl dt {
+    font-size: 0.48rem;
 }
