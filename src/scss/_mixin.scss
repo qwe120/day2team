@@ -35,7 +35,11 @@
     flex-direction: $dir;
 }
 
+<<<<<<< HEAD
 @mixin flexWrap ($wrap) {
+=======
+@mixin flexWrap ($wrap:wrap) {
+>>>>>>> ly
     -webkit-flex-wrap: $wrap;
     flex-wrap: $wrap;
 }
