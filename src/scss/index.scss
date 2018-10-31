@@ -12,6 +12,54 @@ $height:100%;
     overflow: hidden;
 }
 
+header {
+    width: $width;
+    height: pxTorem(44px);
+    @include box_flex;
+    color: #E7B0C0;
+    @include justify;
+    @include align;
+    font-size: pxTorem(16px);
+}
+
+
+section {
+    width: $width;
+    @include box_flex;
+    @include flex;
+    @include flexFlow($dir: column, $wrap: wrap);
+}
+
+footer{
+    @include box_flex;
+    @include justify;
+    @include align;
+    width: 100%;
+    height: pxTorem(50px);
+    dl {
+    // height: pxTorem(200px);
+    width: $width;
+    height: 100%;
+    border-top: 1px solid #999999;
+    // @include box_flex;
+    @include justify;
+    @include align;
+    @include flex;
+    // padding: pxTorem(22px) pxTorem(25px);
+    dt {
+        width: 100%;
+        height: pxTorem(24px);
+        text-align: center;
+        font-size: pxTorem(30px);
+    }
+    dd {
+    height: pxTorem(18px);
+    line-height: pxTorem(18px);
+    font-size: pxTorem(12px);
+    text-align: center;    
+    }
+    }
+}
 
 
 
