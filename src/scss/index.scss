@@ -29,6 +29,26 @@ section {
     @include flex;
     @include flexFlow($dir: column, $wrap: wrap);
 }
+section .nav{
+    width: $width;
+    height: pxTorem(50px);
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+section .nav ul{
+    width: 200%;
+    li {
+        display: inline-block;
+        width: pxTorem(60px);
+        text-align: center;
+        line-height: pxTorem(50px);
+        font-size: pxTorem(12px);
+        &:hover {
+            border-bottom: 3px solid #ccc;
+        }
+    }
+}
 
 footer{
     @include box_flex;

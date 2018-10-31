@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="js/better-scroll.js"></script>
     <link rel="stylesheet" type="text/css" href="css/font/iconfont.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
@@ -14,7 +15,18 @@
             全场包邮低至5元
         </header>
         <section>
-
+            <div class="nav">
+                <ul>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                </ul>
+            </div>
         </section>
         <footer>
             <dl>
@@ -39,5 +51,12 @@
             </dl>
         </footer>
     </div>
+    <script>
+        var Bscroll = new BScroll('.nav', {
+            scrollX: true,
+            scrollbar: true,
+            click: true
+        });
+    </script>
 </body>
 </html>
