@@ -194,8 +194,11 @@ body {
 .bigImg {
     width: 100%;
     height: 5.33333rem;
+    position: absolute;
 }
 
 .bigImg img {
     width: 100%;
+    position: relative;
+    bottom: 10px;
 }

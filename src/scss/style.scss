@@ -3,7 +3,10 @@
 .bigImg {
     width: 100%;
     height: pxTorem(200px);
+    position: relative;
     img {
+        position: absolute;
+        bottom: pxTorem(10px);
         width: 100%;
     }
 }
